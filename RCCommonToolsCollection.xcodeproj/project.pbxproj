@@ -15,6 +15,9 @@
 		A07E9E001EA8A75C001C336C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07E9DFE1EA8A75C001C336C /* LaunchScreen.storyboard */; };
 		A07E9E0B1EA8A75C001C336C /* RCCommonToolsCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E0A1EA8A75C001C336C /* RCCommonToolsCollectionTests.m */; };
 		A07E9E161EA8A75D001C336C /* RCCommonToolsCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E151EA8A75D001C336C /* RCCommonToolsCollectionUITests.m */; };
+		A07E9E281EA8AB9A001C336C /* RCScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */; };
+		A07E9E301EA8B191001C336C /* RCCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */; };
+		A07E9E311EA8B191001C336C /* RCCreateQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		A07E9E111EA8A75C001C336C /* RCCommonToolsCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCCommonToolsCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E9E151EA8A75D001C336C /* RCCommonToolsCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCommonToolsCollectionUITests.m; sourceTree = "<group>"; };
 		A07E9E171EA8A75D001C336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07E9E261EA8AB9A001C336C /* RCScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCScanQRCodeViewController.h; sourceTree = "<group>"; };
+		A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCScanQRCodeViewController.m; sourceTree = "<group>"; };
+		A07E9E2D1EA8B191001C336C /* RCCreateQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCreateQRCodeViewController.h; sourceTree = "<group>"; };
+		A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCreateQRCodeViewController.m; sourceTree = "<group>"; };
+		A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCCreateQRCodeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				A07E9DF41EA8A75C001C336C /* AppDelegate.m */,
 				A07E9DF61EA8A75C001C336C /* ViewController.h */,
 				A07E9DF71EA8A75C001C336C /* ViewController.m */,
+				A07E9E2D1EA8B191001C336C /* RCCreateQRCodeViewController.h */,
+				A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */,
+				A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */,
+				A07E9E261EA8AB9A001C336C /* RCScanQRCodeViewController.h */,
+				A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */,
 				A07E9DF91EA8A75C001C336C /* Main.storyboard */,
 				A07E9DFC1EA8A75C001C336C /* Assets.xcassets */,
 				A07E9DFE1EA8A75C001C336C /* LaunchScreen.storyboard */,
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					A07E9DEC1EA8A75C001C336C = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = MMRQ3F2F9X;
 						ProvisioningStyle = Automatic;
 					};
 					A07E9E051EA8A75C001C336C = {
@@ -248,6 +262,7 @@
 			files = (
 				A07E9E001EA8A75C001C336C /* LaunchScreen.storyboard in Resources */,
 				A07E9DFD1EA8A75C001C336C /* Assets.xcassets in Resources */,
+				A07E9E311EA8B191001C336C /* RCCreateQRCodeViewController.xib in Resources */,
 				A07E9DFB1EA8A75C001C336C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07E9E281EA8AB9A001C336C /* RCScanQRCodeViewController.m in Sources */,
+				A07E9E301EA8B191001C336C /* RCCreateQRCodeViewController.m in Sources */,
 				A07E9DF81EA8A75C001C336C /* ViewController.m in Sources */,
 				A07E9DF51EA8A75C001C336C /* AppDelegate.m in Sources */,
 				A07E9DF21EA8A75C001C336C /* main.m in Sources */,
@@ -426,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMRQ3F2F9X;
 				INFOPLIST_FILE = RCCommonToolsCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yoncn.RCCommonToolsCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,10 +457,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMRQ3F2F9X;
 				INFOPLIST_FILE = RCCommonToolsCollection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yoncn.RCCommonToolsCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +532,7 @@
 				A07E9E1C1EA8A75D001C336C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A07E9E1D1EA8A75D001C336C /* Build configuration list for PBXNativeTarget "RCCommonToolsCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +541,7 @@
 				A07E9E1F1EA8A75D001C336C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A07E9E201EA8A75D001C336C /* Build configuration list for PBXNativeTarget "RCCommonToolsCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +550,7 @@
 				A07E9E221EA8A75D001C336C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

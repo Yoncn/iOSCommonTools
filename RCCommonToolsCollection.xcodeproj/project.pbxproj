@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06E18451ED2B79700FE3DBC /* UIAlertView+block.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */; };
+		A06E184C1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */; };
+		A06E184D1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */; };
 		A07E9DF21EA8A75C001C336C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF11EA8A75C001C336C /* main.m */; };
 		A07E9DF51EA8A75C001C336C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF41EA8A75C001C336C /* AppDelegate.m */; };
 		A07E9DF81EA8A75C001C336C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF71EA8A75C001C336C /* ViewController.m */; };
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A06E18431ED2B79700FE3DBC /* UIAlertView+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+block.h"; sourceTree = "<group>"; };
+		A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+block.m"; sourceTree = "<group>"; };
+		A06E18491ED2B8F100FE3DBC /* RCAlertviewShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAlertviewShowViewController.h; sourceTree = "<group>"; };
+		A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAlertviewShowViewController.m; sourceTree = "<group>"; };
+		A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCAlertviewShowViewController.xib; sourceTree = "<group>"; };
 		A07E9DED1EA8A75C001C336C /* RCCommonToolsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCCommonToolsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E9DF11EA8A75C001C336C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A07E9DF31EA8A75C001C336C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +126,11 @@
 				A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */,
 				A07E9E261EA8AB9A001C336C /* RCScanQRCodeViewController.h */,
 				A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */,
+				A06E18491ED2B8F100FE3DBC /* RCAlertviewShowViewController.h */,
+				A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */,
+				A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */,
+				A06E18431ED2B79700FE3DBC /* UIAlertView+block.h */,
+				A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */,
 				A07E9DF91EA8A75C001C336C /* Main.storyboard */,
 				A07E9DFC1EA8A75C001C336C /* Assets.xcassets */,
 				A07E9DFE1EA8A75C001C336C /* LaunchScreen.storyboard */,
@@ -263,6 +276,7 @@
 				A07E9E001EA8A75C001C336C /* LaunchScreen.storyboard in Resources */,
 				A07E9DFD1EA8A75C001C336C /* Assets.xcassets in Resources */,
 				A07E9E311EA8B191001C336C /* RCCreateQRCodeViewController.xib in Resources */,
+				A06E184D1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib in Resources */,
 				A07E9DFB1EA8A75C001C336C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +304,11 @@
 			files = (
 				A07E9E281EA8AB9A001C336C /* RCScanQRCodeViewController.m in Sources */,
 				A07E9E301EA8B191001C336C /* RCCreateQRCodeViewController.m in Sources */,
+				A06E184C1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m in Sources */,
 				A07E9DF81EA8A75C001C336C /* ViewController.m in Sources */,
 				A07E9DF51EA8A75C001C336C /* AppDelegate.m in Sources */,
 				A07E9DF21EA8A75C001C336C /* main.m in Sources */,
+				A06E18451ED2B79700FE3DBC /* UIAlertView+block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

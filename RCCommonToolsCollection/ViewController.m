@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RCCreateQRCodeViewController.h"
 #import "RCScanQRCodeViewController.h"
+#import "RCAlertviewShowViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)NSArray *commomToolsArray;
@@ -20,8 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"常用工具汇总";
-    _commomToolsArray = @[@"生成二维码",@"扫描二维码"];
+    _commomToolsArray = @[@"生成二维码",@"扫描二维码",@"封装alertview的delegate成block"];
     [self.tableView reloadData];
+    
+
 }
 
 
@@ -50,9 +53,10 @@
 {
     if ([_commomToolsArray[indexPath.row] isEqualToString:@"生成二维码"]) {
         [self createQRCode];
-    }else if ([_commomToolsArray[indexPath.row] isEqualToString:@"扫描二维码"])
-    {
+    } else if ([_commomToolsArray[indexPath.row] isEqualToString:@"扫描二维码"]) {
         [self scanQRCode];
+    } else if ([_commomToolsArray[indexPath.row] isEqualToString:@"封装alertview的delegate成block"]) {
+        [self alertviewToBlock];
     }
 }
 
@@ -67,6 +71,11 @@
 {
     RCScanQRCodeViewController *scanQRCodeVC = [[RCScanQRCodeViewController alloc]init];
     [self.navigationController pushViewController:scanQRCodeVC animated:YES];
+}
+
+- (void)alertviewToBlock {
+    RCAlertviewShowViewController *alertviewBlockVC = [[RCAlertviewShowViewController alloc]initWithNibName:@"RCAlertviewShowViewController" bundle:nil];
+    [self.navigationController pushViewController:alertviewBlockVC animated:YES];
 }
 
 

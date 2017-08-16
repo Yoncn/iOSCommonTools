@@ -10,6 +10,7 @@
 #import "RCCreateQRCodeViewController.h"
 #import "RCScanQRCodeViewController.h"
 #import "RCAlertviewShowViewController.h"
+#import "RCDataStorageMethodsViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)NSArray *commomToolsArray;
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"常用工具汇总";
-    _commomToolsArray = @[@"生成二维码",@"扫描二维码",@"封装alertview的delegate成block"];
+    _commomToolsArray = @[@"生成二维码",@"扫描二维码",@"封装alertview的delegate成block",@"存储包含自定义model的数组"];
     [self.tableView reloadData];
     
 
@@ -57,6 +58,8 @@
         [self scanQRCode];
     } else if ([_commomToolsArray[indexPath.row] isEqualToString:@"封装alertview的delegate成block"]) {
         [self alertviewToBlock];
+    } else if ([_commomToolsArray[indexPath.row] isEqualToString:@"存储包含自定义model的数组"]) {
+        [self dataStorageMethods];
     }
 }
 
@@ -76,6 +79,11 @@
 - (void)alertviewToBlock {
     RCAlertviewShowViewController *alertviewBlockVC = [[RCAlertviewShowViewController alloc]initWithNibName:@"RCAlertviewShowViewController" bundle:nil];
     [self.navigationController pushViewController:alertviewBlockVC animated:YES];
+}
+
+- (void)dataStorageMethods {
+    RCDataStorageMethodsViewController *dataStorageVC = [[RCDataStorageMethodsViewController alloc]initWithNibName:@"RCDataStorageMethodsViewController" bundle:nil];
+    [self.navigationController pushViewController:dataStorageVC animated:YES];
 }
 
 

@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A06E18451ED2B79700FE3DBC /* UIAlertView+block.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */; };
-		A06E184C1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */; };
-		A06E184D1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */; };
+		A0034A6D1ED983E7007D05CE /* RCAlertviewShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A621ED983E7007D05CE /* RCAlertviewShowViewController.m */; };
+		A0034A6E1ED983E7007D05CE /* RCAlertviewShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0034A631ED983E7007D05CE /* RCAlertviewShowViewController.xib */; };
+		A0034A6F1ED983E7007D05CE /* UIAlertView+block.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A651ED983E7007D05CE /* UIAlertView+block.m */; };
+		A0034A701ED983E7007D05CE /* RCCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A681ED983E7007D05CE /* RCCreateQRCodeViewController.m */; };
+		A0034A711ED983E7007D05CE /* RCCreateQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0034A691ED983E7007D05CE /* RCCreateQRCodeViewController.xib */; };
+		A0034A721ED983E7007D05CE /* RCScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A6C1ED983E7007D05CE /* RCScanQRCodeViewController.m */; };
+		A0034A7D1ED9853E007D05CE /* RCDataStorageMethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A7B1ED9853E007D05CE /* RCDataStorageMethodsViewController.m */; };
+		A0034A7E1ED9853E007D05CE /* RCDataStorageMethodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0034A7C1ED9853E007D05CE /* RCDataStorageMethodsViewController.xib */; };
+		A0034A821ED98BB0007D05CE /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A811ED98BB0007D05CE /* dataModel.m */; };
+		A0034A8F1EDE647A007D05CE /* RCShowDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A8D1EDE647A007D05CE /* RCShowDataViewController.m */; };
+		A0034A901EDE647A007D05CE /* RCShowDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0034A8E1EDE647A007D05CE /* RCShowDataViewController.xib */; };
+		A0034A941EDE6B9A007D05CE /* RCShowDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0034A921EDE6B9A007D05CE /* RCShowDataTableViewCell.m */; };
+		A0034A951EDE6B9A007D05CE /* RCShowDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0034A931EDE6B9A007D05CE /* RCShowDataTableViewCell.xib */; };
 		A07E9DF21EA8A75C001C336C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF11EA8A75C001C336C /* main.m */; };
 		A07E9DF51EA8A75C001C336C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF41EA8A75C001C336C /* AppDelegate.m */; };
 		A07E9DF81EA8A75C001C336C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9DF71EA8A75C001C336C /* ViewController.m */; };
@@ -18,9 +28,11 @@
 		A07E9E001EA8A75C001C336C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07E9DFE1EA8A75C001C336C /* LaunchScreen.storyboard */; };
 		A07E9E0B1EA8A75C001C336C /* RCCommonToolsCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E0A1EA8A75C001C336C /* RCCommonToolsCollectionTests.m */; };
 		A07E9E161EA8A75D001C336C /* RCCommonToolsCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E151EA8A75D001C336C /* RCCommonToolsCollectionUITests.m */; };
-		A07E9E281EA8AB9A001C336C /* RCScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */; };
-		A07E9E301EA8B191001C336C /* RCCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */; };
-		A07E9E311EA8B191001C336C /* RCCreateQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */; };
+		A0AAFC1F1EE17CCB00E40819 /* RCDatabaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AAFC1D1EE17CCB00E40819 /* RCDatabaseListViewController.m */; };
+		A0AAFC201EE17CCB00E40819 /* RCDatabaseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AAFC1E1EE17CCB00E40819 /* RCDatabaseListViewController.xib */; };
+		A0AAFC261EE4F53200E40819 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AAFC221EE4F39E00E40819 /* libsqlite3.tbd */; };
+		A0AAFC291EE4F86600E40819 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AAFC281EE4F86600E40819 /* DatabaseManager.m */; };
+		F9B869270C30D208A6DA9948 /* libPods-RCCommonToolsCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C520BE4E824CF7885D5E65F /* libPods-RCCommonToolsCollection.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +53,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A06E18431ED2B79700FE3DBC /* UIAlertView+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+block.h"; sourceTree = "<group>"; };
-		A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+block.m"; sourceTree = "<group>"; };
-		A06E18491ED2B8F100FE3DBC /* RCAlertviewShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAlertviewShowViewController.h; sourceTree = "<group>"; };
-		A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAlertviewShowViewController.m; sourceTree = "<group>"; };
-		A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCAlertviewShowViewController.xib; sourceTree = "<group>"; };
+		22D03AE85B897A3EB97786C2 /* Pods-RCCommonToolsCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCCommonToolsCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCCommonToolsCollection/Pods-RCCommonToolsCollection.release.xcconfig"; sourceTree = "<group>"; };
+		2C520BE4E824CF7885D5E65F /* libPods-RCCommonToolsCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCCommonToolsCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0034A611ED983E7007D05CE /* RCAlertviewShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAlertviewShowViewController.h; sourceTree = "<group>"; };
+		A0034A621ED983E7007D05CE /* RCAlertviewShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAlertviewShowViewController.m; sourceTree = "<group>"; };
+		A0034A631ED983E7007D05CE /* RCAlertviewShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCAlertviewShowViewController.xib; sourceTree = "<group>"; };
+		A0034A641ED983E7007D05CE /* UIAlertView+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+block.h"; sourceTree = "<group>"; };
+		A0034A651ED983E7007D05CE /* UIAlertView+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+block.m"; sourceTree = "<group>"; };
+		A0034A671ED983E7007D05CE /* RCCreateQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCreateQRCodeViewController.h; sourceTree = "<group>"; };
+		A0034A681ED983E7007D05CE /* RCCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCreateQRCodeViewController.m; sourceTree = "<group>"; };
+		A0034A691ED983E7007D05CE /* RCCreateQRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCCreateQRCodeViewController.xib; sourceTree = "<group>"; };
+		A0034A6B1ED983E7007D05CE /* RCScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCScanQRCodeViewController.h; sourceTree = "<group>"; };
+		A0034A6C1ED983E7007D05CE /* RCScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCScanQRCodeViewController.m; sourceTree = "<group>"; };
+		A0034A7A1ED9853E007D05CE /* RCDataStorageMethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDataStorageMethodsViewController.h; sourceTree = "<group>"; };
+		A0034A7B1ED9853E007D05CE /* RCDataStorageMethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDataStorageMethodsViewController.m; sourceTree = "<group>"; };
+		A0034A7C1ED9853E007D05CE /* RCDataStorageMethodsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCDataStorageMethodsViewController.xib; sourceTree = "<group>"; };
+		A0034A801ED98BB0007D05CE /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
+		A0034A811ED98BB0007D05CE /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
+		A0034A8C1EDE647A007D05CE /* RCShowDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShowDataViewController.h; sourceTree = "<group>"; };
+		A0034A8D1EDE647A007D05CE /* RCShowDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShowDataViewController.m; sourceTree = "<group>"; };
+		A0034A8E1EDE647A007D05CE /* RCShowDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCShowDataViewController.xib; sourceTree = "<group>"; };
+		A0034A911EDE6B9A007D05CE /* RCShowDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShowDataTableViewCell.h; sourceTree = "<group>"; };
+		A0034A921EDE6B9A007D05CE /* RCShowDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShowDataTableViewCell.m; sourceTree = "<group>"; };
+		A0034A931EDE6B9A007D05CE /* RCShowDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCShowDataTableViewCell.xib; sourceTree = "<group>"; };
 		A07E9DED1EA8A75C001C336C /* RCCommonToolsCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCCommonToolsCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E9DF11EA8A75C001C336C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A07E9DF31EA8A75C001C336C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,11 +92,14 @@
 		A07E9E111EA8A75C001C336C /* RCCommonToolsCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCCommonToolsCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E9E151EA8A75D001C336C /* RCCommonToolsCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCommonToolsCollectionUITests.m; sourceTree = "<group>"; };
 		A07E9E171EA8A75D001C336C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A07E9E261EA8AB9A001C336C /* RCScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCScanQRCodeViewController.h; sourceTree = "<group>"; };
-		A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCScanQRCodeViewController.m; sourceTree = "<group>"; };
-		A07E9E2D1EA8B191001C336C /* RCCreateQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCreateQRCodeViewController.h; sourceTree = "<group>"; };
-		A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCreateQRCodeViewController.m; sourceTree = "<group>"; };
-		A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCCreateQRCodeViewController.xib; sourceTree = "<group>"; };
+		A0AAFC1C1EE17CCB00E40819 /* RCDatabaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDatabaseListViewController.h; sourceTree = "<group>"; };
+		A0AAFC1D1EE17CCB00E40819 /* RCDatabaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDatabaseListViewController.m; sourceTree = "<group>"; };
+		A0AAFC1E1EE17CCB00E40819 /* RCDatabaseListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCDatabaseListViewController.xib; sourceTree = "<group>"; };
+		A0AAFC221EE4F39E00E40819 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A0AAFC241EE4F3C300E40819 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A0AAFC271EE4F86600E40819 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		A0AAFC281EE4F86600E40819 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		FE751672BF219CCEED612104 /* Pods-RCCommonToolsCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCCommonToolsCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCCommonToolsCollection/Pods-RCCommonToolsCollection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AAFC261EE4F53200E40819 /* libsqlite3.tbd in Frameworks */,
+				F9B869270C30D208A6DA9948 /* libPods-RCCommonToolsCollection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +129,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53604966483EFD37C89046B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE751672BF219CCEED612104 /* Pods-RCCommonToolsCollection.debug.xcconfig */,
+				22D03AE85B897A3EB97786C2 /* Pods-RCCommonToolsCollection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0034A601ED983E7007D05CE /* AlertViewToBlock */ = {
+			isa = PBXGroup;
+			children = (
+				A0034A611ED983E7007D05CE /* RCAlertviewShowViewController.h */,
+				A0034A621ED983E7007D05CE /* RCAlertviewShowViewController.m */,
+				A0034A631ED983E7007D05CE /* RCAlertviewShowViewController.xib */,
+				A0034A641ED983E7007D05CE /* UIAlertView+block.h */,
+				A0034A651ED983E7007D05CE /* UIAlertView+block.m */,
+			);
+			path = AlertViewToBlock;
+			sourceTree = "<group>";
+		};
+		A0034A661ED983E7007D05CE /* CreateQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A0034A671ED983E7007D05CE /* RCCreateQRCodeViewController.h */,
+				A0034A681ED983E7007D05CE /* RCCreateQRCodeViewController.m */,
+				A0034A691ED983E7007D05CE /* RCCreateQRCodeViewController.xib */,
+			);
+			path = CreateQRCode;
+			sourceTree = "<group>";
+		};
+		A0034A6A1ED983E7007D05CE /* ScanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A0034A6B1ED983E7007D05CE /* RCScanQRCodeViewController.h */,
+				A0034A6C1ED983E7007D05CE /* RCScanQRCodeViewController.m */,
+			);
+			path = ScanQRCode;
+			sourceTree = "<group>";
+		};
+		A0034A791ED98502007D05CE /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A0034A7A1ED9853E007D05CE /* RCDataStorageMethodsViewController.h */,
+				A0034A7B1ED9853E007D05CE /* RCDataStorageMethodsViewController.m */,
+				A0034A7C1ED9853E007D05CE /* RCDataStorageMethodsViewController.xib */,
+				A0034A8C1EDE647A007D05CE /* RCShowDataViewController.h */,
+				A0034A8D1EDE647A007D05CE /* RCShowDataViewController.m */,
+				A0034A8E1EDE647A007D05CE /* RCShowDataViewController.xib */,
+				A0034A911EDE6B9A007D05CE /* RCShowDataTableViewCell.h */,
+				A0034A921EDE6B9A007D05CE /* RCShowDataTableViewCell.m */,
+				A0034A931EDE6B9A007D05CE /* RCShowDataTableViewCell.xib */,
+				A0034A7F1ED98B8F007D05CE /* model */,
+				A0034A831EDE63A1007D05CE /* Database */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		A0034A7F1ED98B8F007D05CE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A0034A801ED98BB0007D05CE /* dataModel.h */,
+				A0034A811ED98BB0007D05CE /* dataModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A0034A831EDE63A1007D05CE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAFC1C1EE17CCB00E40819 /* RCDatabaseListViewController.h */,
+				A0AAFC1D1EE17CCB00E40819 /* RCDatabaseListViewController.m */,
+				A0AAFC1E1EE17CCB00E40819 /* RCDatabaseListViewController.xib */,
+				A0AAFC271EE4F86600E40819 /* DatabaseManager.h */,
+				A0AAFC281EE4F86600E40819 /* DatabaseManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		A07E9DE41EA8A75C001C336C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +215,8 @@
 				A07E9E091EA8A75C001C336C /* RCCommonToolsCollectionTests */,
 				A07E9E141EA8A75D001C336C /* RCCommonToolsCollectionUITests */,
 				A07E9DEE1EA8A75C001C336C /* Products */,
+				A0AAFC211EE4F39E00E40819 /* Frameworks */,
+				53604966483EFD37C89046B1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,16 +237,10 @@
 				A07E9DF41EA8A75C001C336C /* AppDelegate.m */,
 				A07E9DF61EA8A75C001C336C /* ViewController.h */,
 				A07E9DF71EA8A75C001C336C /* ViewController.m */,
-				A07E9E2D1EA8B191001C336C /* RCCreateQRCodeViewController.h */,
-				A07E9E2E1EA8B191001C336C /* RCCreateQRCodeViewController.m */,
-				A07E9E2F1EA8B191001C336C /* RCCreateQRCodeViewController.xib */,
-				A07E9E261EA8AB9A001C336C /* RCScanQRCodeViewController.h */,
-				A07E9E271EA8AB9A001C336C /* RCScanQRCodeViewController.m */,
-				A06E18491ED2B8F100FE3DBC /* RCAlertviewShowViewController.h */,
-				A06E184A1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m */,
-				A06E184B1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib */,
-				A06E18431ED2B79700FE3DBC /* UIAlertView+block.h */,
-				A06E18441ED2B79700FE3DBC /* UIAlertView+block.m */,
+				A0034A791ED98502007D05CE /* DataStorage */,
+				A0034A601ED983E7007D05CE /* AlertViewToBlock */,
+				A0034A661ED983E7007D05CE /* CreateQRCode */,
+				A0034A6A1ED983E7007D05CE /* ScanQRCode */,
 				A07E9DF91EA8A75C001C336C /* Main.storyboard */,
 				A07E9DFC1EA8A75C001C336C /* Assets.xcassets */,
 				A07E9DFE1EA8A75C001C336C /* LaunchScreen.storyboard */,
@@ -166,6 +276,16 @@
 			path = RCCommonToolsCollectionUITests;
 			sourceTree = "<group>";
 		};
+		A0AAFC211EE4F39E00E40819 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AAFC241EE4F3C300E40819 /* libsqlite3.0.tbd */,
+				A0AAFC221EE4F39E00E40819 /* libsqlite3.tbd */,
+				2C520BE4E824CF7885D5E65F /* libPods-RCCommonToolsCollection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07E9E1A1EA8A75D001C336C /* Build configuration list for PBXNativeTarget "RCCommonToolsCollection" */;
 			buildPhases = (
+				C09088F368ECFF6DAB59ED17 /* [CP] Check Pods Manifest.lock */,
 				A07E9DE91EA8A75C001C336C /* Sources */,
 				A07E9DEA1EA8A75C001C336C /* Frameworks */,
 				A07E9DEB1EA8A75C001C336C /* Resources */,
+				BECE7C17DD0A7F2776F88349 /* [CP] Embed Pods Frameworks */,
+				208EC145A5DDE7B185FE12A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,11 +396,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0034A711ED983E7007D05CE /* RCCreateQRCodeViewController.xib in Resources */,
+				A0034A901EDE647A007D05CE /* RCShowDataViewController.xib in Resources */,
 				A07E9E001EA8A75C001C336C /* LaunchScreen.storyboard in Resources */,
+				A0AAFC201EE17CCB00E40819 /* RCDatabaseListViewController.xib in Resources */,
+				A0034A7E1ED9853E007D05CE /* RCDataStorageMethodsViewController.xib in Resources */,
 				A07E9DFD1EA8A75C001C336C /* Assets.xcassets in Resources */,
-				A07E9E311EA8B191001C336C /* RCCreateQRCodeViewController.xib in Resources */,
-				A06E184D1ED2B8F100FE3DBC /* RCAlertviewShowViewController.xib in Resources */,
+				A0034A6E1ED983E7007D05CE /* RCAlertviewShowViewController.xib in Resources */,
 				A07E9DFB1EA8A75C001C336C /* Main.storyboard in Resources */,
+				A0034A951EDE6B9A007D05CE /* RCShowDataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +424,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		208EC145A5DDE7B185FE12A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCCommonToolsCollection/Pods-RCCommonToolsCollection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECE7C17DD0A7F2776F88349 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCCommonToolsCollection/Pods-RCCommonToolsCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09088F368ECFF6DAB59ED17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A07E9DE91EA8A75C001C336C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07E9E281EA8AB9A001C336C /* RCScanQRCodeViewController.m in Sources */,
-				A07E9E301EA8B191001C336C /* RCCreateQRCodeViewController.m in Sources */,
-				A06E184C1ED2B8F100FE3DBC /* RCAlertviewShowViewController.m in Sources */,
+				A0034A821ED98BB0007D05CE /* dataModel.m in Sources */,
 				A07E9DF81EA8A75C001C336C /* ViewController.m in Sources */,
+				A0AAFC1F1EE17CCB00E40819 /* RCDatabaseListViewController.m in Sources */,
+				A0034A8F1EDE647A007D05CE /* RCShowDataViewController.m in Sources */,
 				A07E9DF51EA8A75C001C336C /* AppDelegate.m in Sources */,
+				A0034A6F1ED983E7007D05CE /* UIAlertView+block.m in Sources */,
+				A0034A6D1ED983E7007D05CE /* RCAlertviewShowViewController.m in Sources */,
 				A07E9DF21EA8A75C001C336C /* main.m in Sources */,
-				A06E18451ED2B79700FE3DBC /* UIAlertView+block.m in Sources */,
+				A0034A721ED983E7007D05CE /* RCScanQRCodeViewController.m in Sources */,
+				A0034A7D1ED9853E007D05CE /* RCDataStorageMethodsViewController.m in Sources */,
+				A0034A701ED983E7007D05CE /* RCCreateQRCodeViewController.m in Sources */,
+				A0034A941EDE6B9A007D05CE /* RCShowDataTableViewCell.m in Sources */,
+				A0AAFC291EE4F86600E40819 /* DatabaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +638,7 @@
 		};
 		A07E9E1B1EA8A75D001C336C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE751672BF219CCEED612104 /* Pods-RCCommonToolsCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MMRQ3F2F9X;
@@ -471,6 +653,7 @@
 		};
 		A07E9E1C1EA8A75D001C336C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D03AE85B897A3EB97786C2 /* Pods-RCCommonToolsCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MMRQ3F2F9X;
